@@ -1,5 +1,9 @@
 /* CSS files add styling rules to your content */
 
+html {
+  font-size: 18px;
+}
+
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
@@ -26,6 +30,7 @@ thead tr, tfoot tr {
   background-size: cover;
   background-repeat: repeat;
   font-family: 'Rock Salt', cursive;
+  font-size: 1.25rem;
   color: white;
 }
 
@@ -35,7 +40,7 @@ thead tr, tfoot tr {
 
 tbody > tr {
   background-image: url("assets/noise.png");
-
+  font-size: 1rem;
   font-family: 'Helvetica Neu', Helvetica, sans-serif;
 }
 
