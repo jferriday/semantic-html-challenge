@@ -9,3 +9,45 @@ h1 {
   font-style: italic;
   color: #373fff;
 }
+
+table {
+  width: 100%;
+  border: #800080 2px solid;
+  border-collapse: collapse;
+}
+
+thead th, tfoot td {
+  border: #800080 solid 2px;
+
+}
+
+thead tr, tfoot tr {
+  background-image: linear-gradient( rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url("assets/leopardskin.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  font-family: 'Rock Salt', cursive;
+  color: white;
+}
+
+#tot-albums {
+  text-align: right;
+}
+
+tbody > tr {
+  background-image: url("assets/noise.png");
+
+  font-family: 'Helvetica Neu', Helvetica, sans-serif;
+}
+
+tr>td:first-child {
+  font-weight: bold;
+}
+
+
+tr:nth-child(odd) {
+background-color: #f3c
+
+}
+tr:nth-child(even){
+background-color: #e495e4;
+}
